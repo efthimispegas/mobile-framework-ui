@@ -1,0 +1,8 @@
+{
+  "name": "@vrs-mobile-framework-ui/mocks",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  }
+}

@@ -15,7 +15,18 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@template-monorepo/foundation": ["libs/foundation/src/index.ts"]
+      "@vrs-mobile-framework-ui/core": ["libs/core/src/index.ts"],
+      "@vrs-mobile-framework-ui/core/*": ["libs/core/*"],
+      "@vrs-mobile-framework-ui/foundation": ["libs/foundation/src/index.ts"],
+      "@vrs-mobile-framework-ui/foundation/*": ["libs/foundation/*"],
+      "@vrs-mobile-framework-ui/iam": ["libs/iam/src/index.ts"],
+      "@vrs-mobile-framework-ui/iam/*": ["libs/iam/*"],
+      "@vrs-mobile-framework-ui/landing": ["libs/landing/src/index.ts"],
+      "@vrs-mobile-framework-ui/landing/*": ["libs/landing/*"],
+      "@vrs-mobile-framework-ui/mocks": ["libs/mocks/src/index.ts"],
+      "@vrs-mobile-framework-ui/mocks/*": ["libs/mocks/*"],
+      "@vrs-mobile-framework-ui/startup": ["libs/startup/src/index.ts"],
+      "@vrs-mobile-framework-ui/startup/*": ["libs/startup/*"]
     }
   },
   "exclude": ["node_modules", "tmp"]

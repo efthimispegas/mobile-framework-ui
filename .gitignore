@@ -109,5 +109,14 @@ yarn-error.log
 # testing
 /coverage
 
+# Environmental variables
+.env
+.env.*
+!.env.example
 
-apps/vrs-e2e/artifacts
+# NPM
+.npmrc
+
+# Typedocs
+docs/
+apps/**/artifacts

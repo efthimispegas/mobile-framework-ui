@@ -1,0 +1,8 @@
+{
+  "name": "@vrs-mobile-framework-ui/startup",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "react": "18.2.0",
+    "react-native": "0.72.6"
+  }
+}
